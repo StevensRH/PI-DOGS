@@ -7,5 +7,6 @@ const router = Router();
 
 // router.use('/temperaments', temperamentRouter)
 router.use('/dogs',dogRouter )
+router.use('/temperaments', temperamentRouter)
 
 module.exports = router;

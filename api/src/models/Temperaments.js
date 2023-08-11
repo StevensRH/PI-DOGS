@@ -6,13 +6,14 @@ module.exports = (sequelize) => {
   sequelize.define('Temperaments',{
     name: {
         type: DataTypes.STRING,
-      allowNull: false,
+        allowNull: false,
     },
     id: {
         type: DataTypes.UUID,
         defaulValue: DataTypes.UUIDV4,
         allowNull: false,
         primaryKey: true,
+        unique: true,
       }
 
   })

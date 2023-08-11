@@ -1,0 +1,16 @@
+import axios from "axios";
+import {
+  GET_ALL_DOGS,
+  GET_DETAIL_DOGS,
+  CLEAR_DETAIL_DOGS,
+  LOADING_PAGE,
+  PAGE_PAGINADO,
+  // ON_SEARCH,
+  NAME_SEARCH,
+  FILTER_SELECT,
+  ORDER_SELECT,
+  TEMPERAMENTS_SELECT,
+  GET_TEMPERAMENTS,
+  POST_DOGS,
+  // CREATE_IMAGE,
+} from "./actions-type";

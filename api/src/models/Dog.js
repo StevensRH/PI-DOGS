@@ -13,6 +13,7 @@ module.exports = (sequelize) => {
       defaulValue: DataTypes.UUIDV4,
       allowNull: false,
       primaryKey: true,
+      unique: true,
     },
     imagen: {
     type: DataTypes.STRING,
